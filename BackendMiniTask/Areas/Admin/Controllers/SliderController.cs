@@ -79,7 +79,7 @@ namespace BackendMiniTask.Areas.Admin.Controllers
 
             if (existed is null) return NotFound();
 
-            SliderUpdateVM slideVM = new SliderUpdateVM
+            SliderUpdateVM slideVM = new()
             {
                 Image = existed.Image,
                 Title = existed.Title,
@@ -102,23 +102,20 @@ namespace BackendMiniTask.Areas.Admin.Controllers
 
             if (existed is null) return NotFound();
 
-            if (slideVM.Image is not null)
+            if (slideVM.Photo is not null)
             {
-                if (slideVM.Photo.CheckFileType("image/"))
+                if (!slideVM.Photo.CheckFileType("image/"))
                 {
                     ModelState.AddModelError("Image", "File must be Image Format");
-                    return View();
+                    return View(slideVM);
                 }
-                if (slideVM.Photo.CheckFileSize(200))
+                if (!slideVM.Photo.CheckFileSize(200))
                 {
 
                     ModelState.AddModelError("Image", "Max File Capacity mut be 300KB");
-                    return View();
+                    return View(slideVM);
                 }
-
-                string newImage = Guid.NewGuid().ToString() + "-" + slideVM.Photo.FileName;
-                string path = Path.Combine(_env.WebRootPath, "assets", "images", newImage);
-                await slideVM.Photo.SaveFileToLocalAsync(path);
+                string newImage = await slideVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images");
                 existed.Image.DeleteFile(_env.WebRootPath, "assets", "images");
                 existed.Image = newImage;
 

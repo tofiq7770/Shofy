@@ -8,6 +8,6 @@ namespace BackendMiniTask.ViewModels.Slider
         public string SubTitle { get; set; }
         public string Description { get; set; }
         [Required]
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
     }
 }

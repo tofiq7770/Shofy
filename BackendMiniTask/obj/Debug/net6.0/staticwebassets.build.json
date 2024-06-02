@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xs3VbsweCFbqn/Drft8Q2iCFA3fLnBsHObErd0cAtfc=",
+  "Hash": "zp1KWuCzejYMFTTtx0n0+lVtGxt0DcvDfVySURX3PtU=",
   "Source": "BackendMiniTask",
   "BasePath": "_content/BackendMiniTask",
   "Mode": "Default",
@@ -3179,6 +3179,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\toggle.svg"
     },
     {
+      "Identity": "C:\\Users\\tofiq\\Desktop\\Shofy\\BackendMiniTask\\wwwroot\\assets\\images\\8efae85f-dfb3-47c7-bf21-71e5414dd60cfavicon.png",
+      "SourceId": "BackendMiniTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tofiq\\Desktop\\Shofy\\BackendMiniTask\\wwwroot\\",
+      "BasePath": "_content/BackendMiniTask",
+      "RelativePath": "assets/images/8efae85f-dfb3-47c7-bf21-71e5414dd60cfavicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\8efae85f-dfb3-47c7-bf21-71e5414dd60cfavicon.png"
+    },
+    {
       "Identity": "C:\\Users\\tofiq\\Desktop\\Shofy\\BackendMiniTask\\wwwroot\\assets\\images\\apple.svg",
       "SourceId": "BackendMiniTask",
       "SourceType": "Discovered",
@@ -4282,6 +4299,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo_08.png"
+    },
+    {
+      "Identity": "C:\\Users\\tofiq\\Desktop\\Shofy\\BackendMiniTask\\wwwroot\\assets\\images\\logorog.png",
+      "SourceId": "BackendMiniTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tofiq\\Desktop\\Shofy\\BackendMiniTask\\wwwroot\\",
+      "BasePath": "_content/BackendMiniTask",
+      "RelativePath": "assets/images/logorog.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logorog.png"
     },
     {
       "Identity": "C:\\Users\\tofiq\\Desktop\\Shofy\\BackendMiniTask\\wwwroot\\assets\\images\\menu-home-1.jpg",
