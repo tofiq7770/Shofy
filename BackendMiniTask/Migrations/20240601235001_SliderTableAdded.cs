@@ -4,7 +4,7 @@
 
 namespace BackendMiniTask.Migrations
 {
-    public partial class Slider : Migration
+    public partial class SliderTableAdded : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

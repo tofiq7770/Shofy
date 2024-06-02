@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BackendMiniTask.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240601091417_Slider")]
-    partial class Slider
+    [Migration("20240601235001_SliderTableAdded")]
+    partial class SliderTableAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

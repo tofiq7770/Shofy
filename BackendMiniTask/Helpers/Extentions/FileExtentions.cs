@@ -26,7 +26,6 @@
         }
         public async static Task SaveFileToLocalAsync(this IFormFile file, string path)
         {
-
             using FileStream stream = new(path, FileMode.Create);
             await file.CopyToAsync(stream);
 
